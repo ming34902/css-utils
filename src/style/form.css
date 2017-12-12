@@ -1,0 +1,147 @@
+
+.ub-list.ub-list-form .ub-list-item button,.ub-list.ub-list-form .ub-list-item input,.ub-list.ub-list-form .ub-list-item select,.ub-list.ub-list-form .ub-list-item textarea,.ub-list.form .ub-list-item button,.ub-list.form .ub-list-item input,.ub-list.form .ub-list-item select,.ub-list.form .ub-list-item textarea {
+	font-size: .15rem;
+	-webkit-appearance: none;
+	width: 100%;
+	padding: 0;
+	border: none;
+	background-color: transparent
+}
+
+.ub-list.ub-list-form .ub-list-item input,.ub-list.ub-list-form .ub-list-item select,.ub-list.form .ub-list-item input,.ub-list.form .ub-list-item select {
+	font-size: .17rem;
+	color: #000;
+	height: .25rem;
+	display: block;
+	line-height: .25rem
+}
+
+.ub-list.ub-list-form .ub-list-item textarea,.ub-list.form .ub-list-item textarea {
+	font-size: .17rem;
+	overflow: visible;
+	display: block;
+	resize: none;
+	word-break: break-all;
+	word-wrap: break-word;
+	line-height: normal
+}
+
+.ub-list.ub-list-form .ub-list-item ::-webkit-input-placeholder,.ub-list.form .ub-list-item ::-webkit-input-placeholder {
+	color: #ccc;
+	font-size: .17rem
+}
+
+.ub-list.ub-list-form .ub-list-label,.ub-list.form .ub-list-label {
+	font-size: .17rem;
+	margin-left: 0;
+	margin-right: .05rem;
+	color: #000;
+	text-align: left;
+	min-width: .85rem
+}
+
+.ub-list.ub-list-form .ub-list-control,.ub-list.form .ub-list-control {
+	font-size: .17rem;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1
+}
+
+.ub-list.ub-list-form .ub-list-clear,.ub-list.form .ub-list-clear {
+	width: .18rem
+}
+
+.ub-list.ub-list-form .ub-list-clear .ub-icon.clear,.ub-list.form .ub-list-clear .ub-icon.clear {
+	padding: .02rem
+}
+
+.ub-list.ub-list-form .ub-list-button,.ub-list.form .ub-list-button {
+	display: block;
+	height: .35rem;
+	margin-right: -.12rem
+}
+
+.ub-list.ub-list-form .ub-list-button:before,.ub-list.form .ub-list-button:before {
+	content: '';
+	float: left;
+	margin-top: .09rem;
+	height: .17rem;
+	width: 1px;
+	background: #e5e5e5;
+	overflow: hidden
+}
+
+.ub-list.ub-list-form .ub-list-button a,.ub-list.ub-list-form .ub-list-button button,.ub-list.form .ub-list-button a,.ub-list.form .ub-list-button button {
+	float: left;
+	width: .94rem;
+	height: .35rem;
+	text-align: center;
+	padding: 0;
+	color: #108ee9
+}
+
+.ub-list.ub-list-form .ub-list-button a:disabled,.ub-list.ub-list-form .ub-list-button button:disabled,.ub-list.form .ub-list-button a:disabled,.ub-list.form .ub-list-button button:disabled {
+	color: #888
+}
+
+.ub-list.ub-list-form .ub-list-button button,.ub-list.form .ub-list-button button {
+	outline: 0;
+	border: 0;
+	background: 0 0
+}
+
+.ub-list.ub-list-form .ub-captcha-figure,.ub-list.form .ub-captcha-figure {
+	float: left;
+	width: .6rem;
+	margin: .05rem 0 0 .1rem;
+	height: .25rem;
+	vertical-align: top
+}
+
+.ub-list.ub-list-form .ub-captcha-figure img,.ub-list.form .ub-captcha-figure img {
+	width: .59rem;
+	height: .22rem;
+	vertical-align: middle
+}
+
+.ub-list.ub-list-form .ub-captcha-figure button,.ub-list.form .ub-captcha-figure button {
+	width: .6rem;
+	height: .25rem;
+	vertical-align: top;
+	line-height: .25rem;
+	color: #888;
+	font-size: .15rem
+}
+
+.ub-list.ub-list-form .captcha-refresh,.ub-list.form .captcha-refresh {
+	width: .21rem;
+	height: .21rem;
+	text-indent: -99.99rem;
+	background-position: center 1px;
+	margin-top: .07rem;
+	margin-right: .12rem
+}
+
+.ub-list.ub-list-form .ub-list-item.select select,.ub-list.form .ub-list-item.select select {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 2
+}
+
+.ub-list .ub-list-item-error .ub-list-control input {
+	color: red
+}
+
+.ub-list .ub-list-item-error .ub-icon.ub-error-tip {
+	width: .18rem;
+	height: .18rem
+}
+
+.ub-list .ub-list-item-error .ub-icon.ub-error-tip:before {
+	width: .18rem;
+	height: .18rem;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCubAAABg3ub1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABgUExURUxpcf88Mf88Mv87MP87MP87MP88Mf9PNv87MP88MP87Mf87MP87MP9VVf87MP89Mf89Mv87MP89O/9COP87MP87MP88MP87MP88Mf87MP87MP89Nf88Mf87Mv88MP87MPTIUdQAAAAfdFJOUwBnN+3M+lsJ5498r7cD205g9REb9/KahkLBoyt0cJT9wB6oAAABXUlEQVRIx51W25aDIAzECwp4Qatidbsn//+XxW53T1cmWjqPSeYAySRBiD1Kq+s2kzJra21LcYJLV/X0gr7qLgfhpZkowGS4Y5pEEYRKGhQ/5MQiH8L4VNEBVLqPL0Y6xFjs4ukU/xjpeE4YX241KHoD6u/lTZCfRWvtwlz9ZjcJXMZbv8Izkmd9wwvNmKB+ub5Cj94SAZ5hHnoD+nHefgWEaVNiBxyrt1uUqc47KmCvuFp6R9kDe82cTH2JT15gsjdYoaGcPeEGCVrUHMFAQi1aZG49YSbsyaDOPAHelTIhsVkIBwkSE6QnrAwBXokaXNDtbPho8rKsmUdjuxfZwqQVJ2N1TjGFsxQFi8XHwosPZkPO1++MkTeU8dbtqWQaCLXoo9lzpkWRLDmC4cbMDQ+B55hBveWKuWcHGRiVzFppPh3G8eM+fqHEr6z4pRi/duMXe/zX4YPPyTvfnztZW8ocyA/EyAAAAABJRU5ErkJggg==") left top no-repeat;
+	background-size: .18rem auto;
+	-webkit-background-size: .18rem auto
+}

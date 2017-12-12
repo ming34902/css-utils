@@ -1,0 +1,237 @@
+.ub-dialog-mask {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	z-index: 9998
+}
+
+.ub-dialog-mask.show {
+	display: block
+}
+
+.ub-dialog {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	z-index: 9999;
+	text-align: center;
+	width: 100%
+}
+
+.ub-dialog.show {
+	display: block
+}
+
+.ub-dialog .ub-dialog-wrap {
+	padding-top: 25px;
+	max-width: 270px;
+	margin: 0 auto;
+	border-radius: 7px;
+	-webkit-background-clip: padding-box;
+	background-color: #fff;
+	line-height: 21px
+}
+
+.ub-dialog .ub-dialog-header {
+	-webkit-box-sizing: border-box
+}
+
+.ub-dialog .ub-dialog-header h3 {
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000;
+	font-weight: 400;
+	padding: 0 40px 9px
+}
+
+.ub-dialog .ub-dialog-header.ub-dialog-single-header h3 {
+	font-size: 15px;
+	color: #333
+}
+
+.ub-dialog .ub-dialog-close {
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+	height: 45px;
+	width: 45px;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCubAAAub7l6QAAAANlBMVEVMaXGIiIiJiYmJiYn///+IiIiIiIiRkZGJiYmJiYmIiIiZmZmIiIiIiIiLi4uJiYmIiIiIiIif033nAAAAEXRSTlMA3vWjAZv1FdRBcAq0vhZmK7msGmgAAABpSURBVHja7dGxDoAgFEPRCiogIL7//1kT84hD083RrmfocHH1BLHSKrrlJHS3AylPZ91WuCt1F0pOOp2VnJXdlZyV3VW4q3BX4Ut4lX0xi1JRgj3/smDM7qLR3/eDvmiy4JltoB5T2Qdurq8Js9sW2oUAAAAASUVORK5CYII=") center no-repeat;
+	background-size: 15px 15px
+}
+
+.ub-dialog .ub-dialog-close.hover,.ub-dialog .ub-dialog-close:active {
+	background-color: rgba(54,57,64,.05)
+}
+
+.ub-dialog .ub-dialog-img {
+	position: relative;
+	margin: 0 auto;
+	padding: 11px 40px 0;
+	text-align: center
+}
+
+.ub-dialog .ub-dialog-img img {
+	display: inline-block;
+	width: 135px;
+	height: 135px
+}
+
+.ub-dialog .ub-dialog-header+.ub-dialog-img {
+	padding: 15px 0 0
+}
+
+.ub-dialog .ub-dialog-header+.ub-dialog-img:before {
+	content: " ";
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: 0;
+	left: 0;
+	-webkit-transform: scale(.5);
+	transform: scale(.5);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	box-sizing: border-box;
+	border-top: 1px solid #E5E5E5
+}
+
+.ub-dialog .ub-dialog-body {
+	-webkit-box-sizing: border-box;
+	padding: 0 10px;
+	line-height: 20px
+}
+
+.ub-dialog .ub-dialog-body:first-child .ub-dialog-brief,.ub-dialog .ub-dialog-img+.ub-dialog-body .ub-dialog-brief {
+	padding: 0;
+	color: #333;
+	font-size: 15px
+}
+
+.ub-dialog .ub-dialog-brief {
+	padding: 0 12px;
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	color: #888
+}
+
+.ub-dialog .ub-dialog-sline-content {
+	min-height: 42px;
+	line-height: 42px
+}
+
+.ub-dialog .ub-dialog-footer {
+	margin-top: 15px;
+	border-top: 1px solid rgba(0,0,0,.05);
+	display: -webkit-box;
+	display: -webkit-flex
+}
+
+.ub-dialog .ub-dialog-header+.ub-dialog-footer {
+	margin-top: 6px
+}
+
+.ub-dialog .ub-dialog,.ub-dialog .ub-dialog-button {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 25px;
+	padding: 12px 0 13px;
+	font-size: 18px;
+	background: 0 0;
+	border: 0;
+	outline: 0;
+	border-left: 1px solid rgba(0,0,0,.05);
+	-webkit-appearance: none;
+	color: #000;
+	text-align: center;
+	box-sizing: border-box
+}
+
+.ub-dialog .ub-dialog-button:first-child,.ub-dialog .ub-dialog:first-child {
+	border-left: 0 none;
+	border-bottom-left-radius: 7px
+}
+
+.ub-dialog .ub-dialog-button:last-child,.ub-dialog .ub-dialog:last-child {
+	border-bottom-right-radius: 7px;
+	color: #108ee9
+}
+
+.ub-dialog .ub-dialog-button:disabled,.ub-dialog .ub-dialog:disabled {
+	color: #c2c2c2
+}
+
+.ub-dialog .ub-dialog-button.hover,.ub-dialog .ub-dialog-button:active,.ub-dialog .ub-dialog.hover,.ub-dialog .ub-dialog:active {
+	background-color: rgba(54,57,64,.05)
+}
+
+.ub-dialog .selection {
+	display: block
+}
+
+.ub-dialog .selection .ub-dialog-button {
+	display: block;
+	border-top: 1px solid rgba(0,0,0,.05);
+	border-left: 0 none;
+	color: #108ee9
+}
+
+.ub-dialog .selection .ub-dialog-button:first-child {
+	border-top: 0 none;
+	border-radius: 0
+}
+
+.ub-dialog .selection .ub-dialog-button:last-child {
+	border-bottom-left-radius: 7px
+}
+
+.ub-dialog input.ub-password-former,.ub-dialog input.ub-text-former {
+	-webkit-box-sizing: border-box;
+	display: block;
+	width: 100%;
+	height: 36px;
+	overflow: hidden;
+	border: 1px solid #ECECEC;
+	border-radius: 5px;
+	-webkit-background-clip: padding-box;
+	margin-top: 14px;
+	padding: 0 5px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.4);
+	font-size: 14px
+}
+
+.ub-dialog.simage .ub-dialog-img img {
+	width: 90px;
+	height: 90px
+}
+
+.ub-dialog.simage .ub-dialog-brief {
+	color: #888
+}
+
+.ub-dialog.image .ub-dialog-wrap {
+	position: relative
+}
+
+.ub-dialog.image .ub-dialog-outlink {
+	display: block;
+	font-size: 15px;
+	line-height: 16px;
+	text-align: center;
+	padding: 6px 12px 0
+}
+
+.ub-dialog.image .ub-dialog-img+.ub-dialog-header h3,.ub-dialog.simage .ub-dialog-img+.ub-dialog-header h3 {
+	padding: 7px 0 9px
+}

@@ -1,0 +1,96 @@
+.ub-message {
+	position: relative;
+	padding: .12rem .15rem .12rem .46rem;
+	margin-bottom: .15rem;
+	background: -webkit-linear-gradient(90deg,#ddd,#ddd,rgba(229,229,229,0)) top left no-repeat,-webkit-linear-gradient(270deg,#ddd,#ddd,rgba(229,229,229,0)) bottom left no-repeat,#fff;
+	background: linear-gradient(0deg,#ddd,#ddd,rgba(229,229,229,0)) top left no-repeat,linear-gradient(180deg,#ddd,#ddd,rgba(229,229,229,0)) bottom left no-repeat,#fff;
+	-webkit-background-size: 100% 1px,100% 1px;
+	background-size: 100% 1px,100% 1px;
+	color: #000
+}
+
+.ub-message .ub-message-main {
+	font-size: .17rem;
+	line-height: .21rem
+}
+
+.ub-message .ub-icon.message,.ub-message .ub-icon.message-multi,.ub-message .ub-icon.message-weak,.ub-message .ub-icon.message-week {
+	position: absolute;
+	top: .12rem;
+	left: .14rem;
+	z-index: 1
+}
+
+.ub-message .ub-icon.message-weak,.ub-message .ub-icon.message-week {
+	top: .11rem
+}
+
+.ub-message.multi .ub-icon.message {
+	top: .14rem
+}
+
+.ub-message .ub-message-sub {
+	font-size: .14rem;
+	color: #888;
+	font-weight: 400;
+	line-height: .2rem;
+	margin-top: .02rem
+}
+
+.ub-message.weak,.ub-message.week {
+	padding-top: .09rem;
+	padding-bottom: .09rem;
+	padding-left: .38rem;
+	background: 0 0
+}
+
+.ub-message.weak .ub-message-main,.ub-message.week .ub-message-main {
+	font-size: .13rem;
+	line-height: .21rem;
+	color: #888
+}
+
+.ub-message.result {
+	overflow: hidden;
+	min-height: .3rem;
+	padding: .21rem .15rem;
+	background: -webkit-linear-gradient(270deg,#ddd,#ddd,rgba(229,229,229,0)) bottom left no-repeat,#fff;
+	background: linear-gradient(180deg,#ddd,#ddd,rgba(229,229,229,0)) bottom left no-repeat,#fff;
+	-webkit-background-size: 100% 1px;
+	background-size: 100% 1px;
+	text-align: center
+}
+
+.ub-message.result .ub-message-main {
+	margin: .15rem 0 .09rem;
+	line-height: .21rem
+}
+
+.ub-message.result .ub-message-em {
+	font-size: .3rem;
+	line-height: .36rem;
+	font-fubily: sans-serif
+}
+
+.ub-message.result .ub-icon.result {
+	display: block;
+	margin: 0 auto;
+	z-index: 1
+}
+
+.ub-message.result .ub-message-sub {
+	margin-top: .06rem;
+	line-height: .18rem
+}
+
+.ub-message.result+.ub-button-wrap {
+	background-color: transparent
+}
+
+.ub-message+.ub-button-wrap {
+	padding: 0 .15rem
+}
+
+.ub-message+.ub-button-wrap .ub-button {
+	margin-bottom: .2rem
+}

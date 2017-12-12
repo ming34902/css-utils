@@ -1,0 +1,64 @@
+body,html {
+	height: 100%
+}
+
+.ub-page-result {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	box-orient: vertical
+}
+
+.ub-page-result .ub-page-result-pic {
+	width: 1.35rem;
+	height: 1.35rem;
+	margin: 0 auto;
+	line-height: 1.35rem
+}
+
+.ub-page-result .ub-page-result-title {
+	margin-top: .21rem;
+	font-size: .18rem;
+	line-height: .16rem;
+	color: #000
+}
+
+.ub-page-result .ub-page-result-brief {
+	margin: .09rem .15rem 0;
+	font-size: .13rem;
+	line-height: .16rem;
+	color: #888
+}
+
+.ub-page-result .ub-page-result-button {
+	margin-top: .21rem;
+	display: block;
+	padding: .15rem .15rem .1rem
+}
+
+.ub-page-result a.ub-page-result-button {
+	text-align: center;
+	font-size: .18rem
+}
+
+.ub-page-result .combine-page .ub-page-result-pic {
+	width: 1rem;
+	height: 1rem;
+	margin: 0 auto;
+	line-height: 1rem
+}
+
+.ub-page-result:after,.ub-page-result:before {
+	content: " ";
+	display: block;
+	-webkit-box-sizing: border-box;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	min-height: .2rem
+}
+
+.ub-page-result:after:first-child,.ub-page-result:before:first-child {
+	margin-left: 0
+}

@@ -1,0 +1,99 @@
+.ub-card .ub-card-header {
+	font-size: .14rem;
+	color: #888;
+	margin: .15rem .15rem .08rem
+}
+
+.ub-card .ub-card-item {
+	background-color: #fff;
+	border-radius: .04rem;
+	margin: .06rem .1rem
+}
+
+.ub-card .ub-card-minfo {
+	min-height: .9rem;
+	display: -webkit-box;
+	display: -webkit-flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	padding: .08rem .15rem;
+	box-sizing: border-box
+}
+
+.ub-card .ub-card-thumb {
+	margin-right: .15rem
+}
+
+.ub-card .ub-card-thumb img {
+	width: .5rem;
+	height: .5rem;
+	border-radius: 100%;
+	-webkit-background-clip: padding-box
+}
+
+.ub-card .ub-card-content {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	min-width: 1rem
+}
+
+.ub-card .ub-card-title {
+	/* font-size: .22rem; */
+	color: #000
+}
+
+.ub-card .ub-card-subtitle {
+	/* font-size: .13rem; */
+	color: #888;
+	padding: .06rem 0
+}
+
+.ub-card.ub-card-noicon .ub-card-minfo {
+	min-height: .83rem
+}
+
+.ub-card.ub-card-noicon .ub-card-title {
+	font-size: .17rem
+}
+
+.ub-card .ub-card-footnote {
+	border-top: 1px dashed #ddd;
+	padding: .08rem .15rem;
+	font-size: .13rem;
+	color: #888
+}
+
+.ub-card a.ub-card-minfo .hover,.ub-card a.ub-card-minfo:active {
+	background: rgba(55,57,64,.05)
+}
+
+.ub-card .ub-list-arrow {
+	margin-left: .08rem;
+	margin-right: -.02rem;
+	width: .12rem;
+	padding: 15px 0
+}
+
+.ub-card .ub-icon.arrow {
+	display: block;
+	width: .12rem;
+	height: .12rem;
+	overflow: hidden
+}
+
+.ub-card .ub-icon.arrow:before {
+	content: "";
+	display: block;
+	width: .06rem;
+	height: .06rem;
+	margin-left: 0;
+	border: .02rem solid #ccc;
+	color: #ccc;
+	border-top: 0 none;
+	border-left: 0 none
+}
+
+.ub-card .ub-icon.arrow.horizontal:before {
+	margin-top: .02rem;
+	-webkit-transform: rotate(315deg)
+}

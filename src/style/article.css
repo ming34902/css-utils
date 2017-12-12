@@ -1,0 +1,60 @@
+.ub-article {
+	background-color: #fff;
+	font-size: .17rem;
+	line-height: 1.5;
+	padding: .2rem .15rem;
+	color: #000
+}
+
+.ub-article .ub-article-footer {
+	margin-top: -.08rem
+}
+
+.ub-article h2 {
+	font-size: .22rem;
+	font-weight: 900;
+	color: #000;
+	line-height: 100%
+}
+
+.ub-article time {
+	display: block;
+	margin: .07rem 0 .15rem;
+	font-size: .15rem;
+	color: #888
+}
+
+.ub-article .ub-article-source {
+	font-size: .15rem;
+	color: #108ee9
+}
+
+.ub-article dl {
+	margin: 0 0 .2rem
+}
+
+.ub-article dl dt {
+	font-size: .14rem;
+	font-weight: 900;
+	color: #000;
+	margin-bottom: .03rem
+}
+
+.ub-article dl dd {
+	color: #000;
+	line-height: .2rem
+}
+
+.ub-article p {
+	padding-bottom: .17rem
+}
+
+.ub-article .ub-article-content {
+	display: block;
+	text-indent: .35rem
+}
+
+.ub-article img {
+	max-width: 100%;
+	vertical-align: bottom
+}
